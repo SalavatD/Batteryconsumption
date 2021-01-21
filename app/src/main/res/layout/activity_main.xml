@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:fontFamily="sans-serif"
+            android:gravity="bottom|center"
+            android:text="@string/battery"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/abeezee"
+            android:gravity="center|top"
+            android:text="@string/consumption"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/mah"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="200dp"
+            android:fontFamily="@font/abeezee"
+            android:onClick="onClick"
+            android:text="@string/discover" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

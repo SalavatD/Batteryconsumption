@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Battery consumption</string>
+    <string name="battery">Battery</string>
+    <string name="consumption">Consumption</string>
+    <string name="mah">\? mAh</string>
+    <string name="discover">discover</string>
+    <string name="sec">" sec"</string>
+    <string name="mah2" >" mAh"</string>
+</resources>

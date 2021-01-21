@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Расход батареи</string>
+    <string name="battery">Расход</string>
+    <string name="consumption">батареи</string>
+    <string name="mah">\? мАч</string>
+    <string name="discover">узнать</string>
+    <string name="sec">" с"</string>
+    <string name="mah2">" мАч"</string>
+</resources>
